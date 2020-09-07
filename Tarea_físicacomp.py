@@ -20,12 +20,6 @@ def Factorial(n): #Definimos la función factorial.
         
 
 
-# In[42]:
-
-
-Factorial(10) #El factorial de 10 es 3628800.
-
-
 # # 2.
 
 # In[118]:
@@ -36,12 +30,6 @@ def Binomial(n,k): #Definimos la función binomial.
         return("Ingrese números enteros.")
     else:
         return int(Factorial(n)/(Factorial(k)*Factorial(n-k))) #Retornamos un resultado entero.
-
-
-# In[127]:
-
-
-Binomial(0,1) #El binomial (0,1) es igual a 1.
 
 
 # # 3.
@@ -75,7 +63,7 @@ def Pascal(n):
 # In[152]:
 
 
-Pascal(10) #En el archivo Pascal-n.txt se dan los resultados esperados.
+
 
 
 # # 4.
